@@ -2,7 +2,7 @@
  
 **Problem:** Assume role with mfa not working.
 
-**Reason:** I didn't log out before running "aws configures sso", which merged sso details into the mfa user in the "~/.aws/config" file.
+**Reason:** I didn't log out before running "aws configure sso", which merged sso details into the mfa user in the "~/.aws/config" file.
 
 It looked like it was still allowing command, but that's because it was defaulting to the SSO user.  
 
